@@ -1,4 +1,7 @@
-# twentyseventeen-child
+# Wilmae
+twentyseventeen child theme
+
+
 Wordpress custom theme, gulp, scss, browsersync etc
 fork from https://ahmadawais.com/my-advanced-gulp-workflow-for-wordpress-themes/
 
