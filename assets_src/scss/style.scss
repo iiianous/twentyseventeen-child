@@ -1,0 +1,42 @@
+/*
+Theme Name: Wilmae
+Theme URI: www.ianmostar.com
+Author: Ian Mostar
+Author URI: www.ianmostar.com
+Description: Wordpress, Gulp, Sass, Browsersync boilerplate etc
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen-child
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
+* @author: Ian Mostar <March 11, 2018>
+*/
+
+/* Vendor */
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+/* Base */
+@import 'base/variables';
+@import 'base/base';
+@import 'base/font';
+@import 'base/typography';
+
+/* Helpers */
+@import 'helpers/functions';
+@import 'helpers/mixins';
+
+/* Components */
+@import 'components/navigation';
+@import 'components/button';
+
+/* Layout */
+@import 'layout/section';
+@import 'layout/header';
+@import 'layout/banner';
+@import 'layout/footer';

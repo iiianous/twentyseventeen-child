@@ -1,0 +1,10 @@
+// Section Background
+.section {
+	&.bg-light-grey {
+		background: #f4f4f5;
+	}
+
+	&.bg-dark-grey {
+		background: #333;
+	}
+}
