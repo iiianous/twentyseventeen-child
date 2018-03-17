@@ -975,11 +975,40 @@ a.text-dark:hover,a.text-dark:focus{color:#1d2124 !important}
 .text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}
 .visible{visibility:visible !important}
 .invisible{visibility:hidden !important}
-body{line-height:1.6;font-size:18px;font-family:'Roboto','Arial','sans-serif'}
+body{line-height:1.6;font-size:17px;font-family:'Roboto',sans-serif}
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{font-family:'Suez One',serif}
+.menu{margin:40px 0 0;list-style:none}
+.menu>li{display:inline-block}
+.menu>li>a{padding:10px 15px;color:#fff;text-decoration:none;-webkit-transition:all .5s ease;transition:all .5s ease}
+.menu>li>a:hover{opacity:.7}
 .section{padding:40px 0}
 .section .section-title{text-align:center;margin-bottom:70px}
 .section.section-md{padding:60px 0}
 .section.section-lg{padding:90px 0}
+.section-featured{text-align:center;padding-top:80px;position:relative;width:100%}
+.section-featured:after{background:#fff;bottom:0;content:'';height:100%;left:0;position:absolute;right:0;top:0;-webkit-transform-origin:top right;-ms-transform-origin:top right;transform-origin:top right;-webkit-transform:skewY(-2deg);-ms-transform:skewY(-2deg);transform:skewY(-2deg);width:100%;z-index:-1}
+.section-featured .section-title{font-size:45px;font-weight:700;margin-bottom:35px}
+.section-featured .sched{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;width:100%;margin-top:60px}
+.section-featured .sched .box{width:40%}
+.section-featured .sched .box p{margin:0}
+.section-featured .sched .box1{text-align:right;margin-right:20px;color:#ea3323;text-transform:uppercase;font-weight:bold}
+.section-featured .sched .box2{text-align:left}
+.section-author{background:#eee;position:relative;z-index:-3}
+.section-author .box-photo{text-align:right;padding-right:35px}
+.section-author .box-photo .photo{border-radius:100%}
+.section-header{padding:0;height:85vh;background:#ea3323;position:relative;width:100%}
+.section-header:before{position:absolute;width:100%;height:100%;content:'';top:0;right:0;bottom:0;left:0;background:inherit;z-index:-1;-webkit-transform-origin:top right;-ms-transform-origin:top right;transform-origin:top right;-webkit-transform:skewY(-2deg);-ms-transform:skewY(-2deg);transform:skewY(-2deg)}
+.section-header .inner{height:100%;width:100%;background:url("assets/images/dribble_man.png") no-repeat right center;background-position-x:800px}
+.banner{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:500px;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#fff}
+.banner .banner-title{font-size:75px;line-height:1;text-transform:uppercase;font-family:'Roboto';font-weight:700;font-style:italic;letter-spacing:.02em}
+.banner .banner-text{list-style:none;margin-top:30px;text-transform:uppercase;letter-spacing:.05em;font-family:'Roboto';font-weight:700;font-size:24px;font-style:italic}
+.hat{padding-top:10px}
+.main-nav{text-align:right;color:#fff;text-transform:uppercase}
+.section-footer{padding:25px 0;color:#fff;background:#222}
+.section-footer p{margin-bottom:0}
+.section-footer .box-2{text-align:right}
+.red{color:#ea3323}
+.black{color:#222}
 @media(min-width:576px){.container{max-width:540px}
 .col-sm{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
 .col-sm-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}

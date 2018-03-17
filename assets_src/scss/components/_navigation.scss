@@ -1,0 +1,19 @@
+.menu {
+	margin: 40px 0 0;
+	list-style: none;
+
+	> li {
+		display: inline-block;
+
+		> a {
+			padding: 10px 15px;
+			color: #fff;
+			text-decoration: none;
+			transition: all .5s ease;
+
+			&:hover {
+				opacity: .7;
+			}
+		}
+	}
+}
