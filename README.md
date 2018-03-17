@@ -24,6 +24,10 @@ git clone <git-path>
 ```
 
 install the packages
+
+cd to folder 
+
+> twentyseventeen-child 
 ```javascript
 npm install
 ```
