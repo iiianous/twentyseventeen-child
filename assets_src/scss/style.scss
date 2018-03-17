@@ -14,10 +14,6 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-/*
-* @author: Ian Mostar <March 11, 2018>
-*/
-
 /* Vendor */
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -40,3 +36,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import 'layout/header';
 @import 'layout/banner';
 @import 'layout/footer';
+
+/* Utilities */
+@import 'utilities/helpers'
