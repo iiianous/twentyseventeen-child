@@ -9,13 +9,22 @@ fork from https://ahmadawais.com/my-advanced-gulp-workflow-for-wordpress-themes/
 source files for scss, imgs. It will be compiled to '/assets' folder 
 
 ## installation
+go to themes directory
 ```
 cd wp-content/themes
-
-git clone <git-url>
 ```
 
+git clone <git-repo> 
+```
+git clone <git-path>
+```
+
+install the packages
 ```javascript
 npm install
+```
+
+serve the project
+```javascript
 gulp
 ```
