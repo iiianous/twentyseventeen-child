@@ -1,5 +1,6 @@
 .section {
 	padding: $section_padding_sm 0;
+	text-align: center;
 
 	.section-title {
 		text-align: center;
@@ -12,72 +13,5 @@
 
 	&.section-lg {
 		padding: $section_padding_lg 0;
-	}
-}
-
-.section-featured {
-	text-align: center;
-	padding-top: 80px;
-	position: relative;
-	width: 100%;
-
-	&:after {
-		background: $white;
-		bottom: 0;
-		content: '';
-		height: 100%;
-		left: 0;
-		position: absolute;
-		right: 0;
-		top: 0;
-		transform-origin: top right;
-		transform: skewY(-2deg);
-		width: 100%;
-		z-index: -1;
-	}
-
-	.section-title {
-		font-size: 45px;
-		font-weight: 700;
-		margin-bottom: 35px;
-	}
-
-	.sched {
-		display: flex;
-		flex-flow: row wrap;
-		width: 100%;
-		margin-top: 60px;
-
-		.box {
-			width: 40%;
-			p { margin: 0; }
-		}
-
-		.box1 {
-			text-align: right;
-			margin-right: 20px;
-			color: #ea3323;
-			text-transform: uppercase;
-			font-weight: bold;
-		}
-
-		.box2 {
-			text-align: left;
-		}
-	}
-}
-
-.section-author {
-	background: #eee;
-	position: relative;
-	z-index: -3;
-
-	.box-photo {
-		text-align: right;
-		padding-right: 35px;
-
-		.photo {
-			border-radius: 100%;
-		 }
 	}
 }

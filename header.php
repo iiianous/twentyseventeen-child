@@ -18,51 +18,34 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link href="//fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 	<div class="section section-header">
-		<div class="inner">
-			<div class="container-fluid hat">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
-						<img
-							src="<?php echo get_template_directory_uri() . '/assets/images/psalm23_logo.svg'; ?>"
-							alt="Psalm23 Basketball Academy"
-							height="100px"
-							width="340px" />
+					<div class="col-md-6 text-left">
+						<img height="90px" width="200px" src="<?php echo get_template_directory_uri() . '/assets/images/logo.svg'; ?>" />
 					</div>
-					<div class="col-md-7 main-nav">
+					<div class="col-md-6 main-nav text-right">
 						<?php
-						wp_nav_menu( array(
-							'menu'              => 'primary',
-							// 'theme_location'    => 'secondary',
-							//'depth'             => 4,
-							'container'         => 'nav',
-							'menu_id'        	=> 'primary_nav'
+							wp_nav_menu( array(
+								'menu'              => 'primary',
+								// 'theme_location'    => 'secondary',
+								//'depth'             => 4,
+								'container'         => 'nav',
+								'menu_id'        	=> 'primary_nav'
 						) );
 						?>
 					</div>
 				</div>
-			</div>
-			<div class="container">
 				<div class="row banner">
-					<div class="col-sm-12 col-md-7">
-						<h2 class="banner-title">
-							<span class="black">Basketball</span><br/>
-						 	skills clinic</h2>
-						<ul class="banner-text">
-							<li>Strength and Conditioning,</li>
-							<li>Agility,</li>
-							<li>Quickness,</li>
-							<li>Ball handling,</li>
-							<li>Passing and more</li>
-						</ul>
+					<div class="col-md-12">
+						<h1>This is header.php</h1>
 					</div>
-					<div class="col-sm-12 col-md-5"></div>
 				</div>
 			</div>
 		</div>
-
 	</div>

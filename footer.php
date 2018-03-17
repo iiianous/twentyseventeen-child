@@ -13,14 +13,11 @@
  */
 
 ?>
-<div class="section section-footer">
+<div class="section section-lg">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 box box-1">
-				<p>Copyright 2018</p>
-			</div>
-			<div class="col-md-6 box box-2">
-				<p>www.psalm23baskeetballacademy.com</p>
+			<div class="col-md-12">
+				<h1>This is a footer.php</h1>
 			</div>
 		</div>
 	</div>
