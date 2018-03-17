@@ -1,8 +1,9 @@
 # Wilmae
-twentyseventeen child theme
+A twentyseventeen child theme
 
+Wordpress Boilerplate for 2018
 
-Wordpress custom theme, gulp, scss, browsersync etc
+> gulp, scss, browsersync etc
 
 fork from https://ahmadawais.com/my-advanced-gulp-workflow-for-wordpress-themes/
 
