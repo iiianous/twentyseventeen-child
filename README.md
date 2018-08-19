@@ -36,3 +36,19 @@ serve the project
 ```javascript
 gulp
 ```
+
+## nginx configuration
+in nginx, allow subpages routing
+
+```javascript
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    # Remove trailing slash to please routing system.
+    #if (!-d $request_filename) {
+    # rewrite ^/(.+)/$ /$1 permanent;
+    #}
+
+```
