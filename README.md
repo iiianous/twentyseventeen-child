@@ -1,7 +1,7 @@
 # Wilmae
 A twentyseventeen child theme
 
-Wordpress Boilerplate for 2018
+Wordpress Boilerplate for 2017 and 2018
 
 > Gulp,Browsersync, scss etc
 
