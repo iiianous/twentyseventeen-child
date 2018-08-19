@@ -37,7 +37,7 @@ gulp
 ## In nginx configuration
 in nginx, allow subpages routing
 
-```javascript
+```php
 
 location / {
    try_files $uri $uri/ /index.php?$args;
