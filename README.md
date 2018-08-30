@@ -21,7 +21,7 @@ git clone <git-repo>
 git clone <git-path>
 ```
 
-Install the packages
+Install the packages,
 cd to folder 
 
 > twentyseventeen-child 
