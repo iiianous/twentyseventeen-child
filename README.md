@@ -1,17 +1,17 @@
 # Wilmae
 A twentyseventeen child theme
 
-Wordpress Boilerplate for 2017 and 2018
+Wordpress Custom Boilerplate for 2017 and 2018.
 
-> Gulp,Browsersync, scss etc
+> Gulp, Browsersync, SASS files etc
 
 ## assets_src
-Source files for scss, js and images.
+Source files for JavaScript, SCSS and Image assets.
 
 It will be compiled to '/assets' folder
 
 ## Installation
-Go to themes directory
+Go to `wp-content` > `themes` directory
 ```
 cd wp-content/themes
 ```
@@ -34,8 +34,8 @@ Serve the project
 gulp
 ```
 
-## In nginx configuration
-in nginx, allow subpages routing
+## In Nginx configuration
+in Nginx, allow subpages routing
 
 ```php
 
