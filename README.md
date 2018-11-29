@@ -1,5 +1,5 @@
 # Wilmae
-A twentyseventeen child theme
+A Wordpress child theme
 
 Wordpress Custom Boilerplate for 2017 and 2018.
 
@@ -50,4 +50,4 @@ location / {
 
 ```
 
-Fork and inspired from https://ahmadawais.com/my-advanced-gulp-workflow-for-wordpress-themes/
+Inspired from https://ahmadawais.com/my-advanced-gulp-workflow-for-wordpress-themes/
