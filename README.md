@@ -1,7 +1,5 @@
 # Wilmae
-A Wordpress child theme
-
-Wordpress Custom Boilerplate for 2017 and 2018.
+A Wordpress child theme and custom theme boilerplate for 2017 and 2018.
 
 > Gulp, Browsersync, SASS files etc
 
